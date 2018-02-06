@@ -31,28 +31,27 @@
     <!-- Start browse currency -->
     <section>
       <h2>... Or browse currency: </h2>
-      <article>
         <h3>Category: .... </h3>
         <button>X</button>
-        <div>
-        <img src="" alt="Billede af fugl">
-        <h5>Some parrot</h5>
+        <article>
+          <img src="" alt="Billede af fugl">
+          <h5>Some parrot</h5>
 
-        <!-- ... For each  -->
-        <form class="" action="" method="post">
-          <select name="currency">
-            <option value="USD">USD</option>
-            <option value="saab">DKK</option>
-            <option value="opel">NKK</option>
-            <option value="audi">SKK</option>
-          </select>
-          <input type="hidden" value="id" name="id">
-          <input type="text" name="amount" placeholder="Amount">
-          <input type="submit">
-        </form>
+          <!-- ... For each  -->
+          <form class="" action="" method="post">
+            <select name="currency">
+              <option value="USD">USD</option>
+              <option value="saab">DKK</option>
+              <option value="opel">NKK</option>
+              <option value="audi">SKK</option>
+            </select>
+            <input type="hidden" value="id" name="id">
+            <input type="text" name="amount" placeholder="amount">
+            <input type="submit">
+          </form>
+      </article>
         <!-- Endforeach -->
 
-      </article>
     </section>
     <!-- End browse currency -->
 

@@ -24,17 +24,27 @@
         <input type="submit">
       </form>
       <!-- Search form end -->
-      
+
     </main>
     <!-- heading + search form end -->
 
     <!-- Browse currency start  -->
     <section>
 
-      <!-- For each in category -->
+      <!-- Categories -->
       <h2>... Or browse currency: </h2>
-      <a href="" class="category-link">
-      <!-- end foreach -->
+      <ul>
+        <li class=""></li>
+        <li class=""></li>
+        <li class=""></li>
+        <li class=""></li>
+        <li class=""></li>
+        <li class=""></li>
+        <li class=""></li>
+        <li class=""></li>
+        <li class=""></li>
+      <ul>
+      <!-- Categories end -->
 
     </section>
     <!-- Browse currency end  -->
