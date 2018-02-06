@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  &__heading {
+  font-size: 4em;
+  }
+  &__subheading {
+  font-size: 2em;
+  }
+}

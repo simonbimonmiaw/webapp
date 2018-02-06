@@ -8,9 +8,9 @@
   <body>
 
     <!-- Logo header -->
-    <header>
-      <h1>Chang'a'later</h1>
-      <h5>- The internet's converter for useless currencies</h5>
+    <header class="header">
+      <h1 class="header__heading">Chang'a'later</h1>
+      <h5 class="header__subheading">- The internet's converter for useless currencies</h5>
     </header>
     <!-- Logo header end -->
 

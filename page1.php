@@ -7,11 +7,12 @@
   </head>
   <body>
 
-    <!-- Heading + seach form -->
-    <header>
-      <h1>Chang'a'later</h1>
-      <h5>- The internet's converter for useless currencies</h5>
+    <!-- Heading -->
+    <header class="header">
+      <h1 class="header__heading">Chang'a'later</h1>
+      <h5 class="header__subheading">- The internet's converter for useless currencies</h5>
     </header>
+
       <!-- Search form -->
     <main>
       <form action="" method="get">
@@ -34,6 +35,8 @@
 
       <!-- Categories -->
       <h2>... Or browse currency: </h2>
+
+
       <ul>
         <li class="">Foods</li>
         <li class="">Minerals</li>
