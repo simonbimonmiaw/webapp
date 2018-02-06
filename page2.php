@@ -7,12 +7,15 @@
   </head>
   <body>
 
-    <!-- Heading + seach form -->
-    <main>
+    <!-- Logo header -->
+    <header>
       <h1>Chang'a'later</h1>
       <h5>- The internet's converter for useless currencies</h5>
+    </header>
+    <!-- Logo header end -->
 
       <!-- Search form -->
+    <main>
       <form action="" method="get">
         <select name="currency">
           <option value="USD">USD</option>
@@ -23,10 +26,8 @@
         <input type="text" name="search-input" placeholder="Amount">
         <input type="submit">
       </form>
-      <!-- End search form -->
-
     </main>
-    <!-- End heading + search form -->
+    <!-- End search form -->
 
     <!-- Start browse currency -->
     <section>
