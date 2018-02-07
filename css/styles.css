@@ -1,1 +1,12 @@
-*{margin:0;padding:0}.header{text-align:center}.header__heading{font-size:4em}.header__subheading{font-size:2em}
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  text-align: center; }
+  .header__heading {
+    font-size: 4em; }
+  .header__subheading {
+    font-size: 2em; }
+
+/*# sourceMappingURL=styles.css.map */
