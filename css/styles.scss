@@ -55,7 +55,7 @@ input, select{
   font-weight: bold;
 }
 
-.form__text{padding-right: $form__text--length; font-size: $searchbar-font-size;}
+.form__text{padding-right: $form__text--length; font-size: $searchbar-font-size;  border-radius:35px 0 0 35px;}
 .form__submit{
 border-radius: 0px 35px 35px 0px;
 background-color: $btn-blue;
@@ -72,7 +72,7 @@ transition: all 500ms;
 }
 
 .select{
-  border-radius: 35px 0px 0px 35px;
+  border-radius: 35px 35px 35px 35px;
   font-size: $searchbar-font-size;
   &__option{
     background-color: white;
@@ -223,7 +223,6 @@ transition: all 500ms;
 
       -webkit-border-radius: 35px 0 0 35px;
       -moz-border-radius: 35px 0 0 35px;
-      border-radius:35px 0 0 35px;
       border: none;
       background-color: white;
     }
