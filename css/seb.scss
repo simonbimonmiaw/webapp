@@ -1,12 +1,11 @@
 *{background-color: rgb(244, 2, 190);}
 body {
   text-align: center;
-margin-left: 30%;
-margin-right: 30%;
+
 
 
 }
-.grid-container{
+.kategori{
   justify-content: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -14,25 +13,24 @@ margin-right: 30%;
   grid-column-start: 2;
   grid-row-end: 5;
   grid-gap: 40px 30px;
+  margin-left: 30%;
+  margin-right: 30%;
 
-
-}
-ul{
+&__item {
     list-style-type: none;
     margin-top: 15px;
-li{
     font-size: 17px;
     background-color: #fff;;
     padding: 50px;
     max-width: 40%;
     border-radius: 35px;
   }
-  }
+
   a{
     text-decoration: none;
     color: rgb(96, 87, 87);
     background-color: #fff;
     padding: 15px;
-
+}
 
   }

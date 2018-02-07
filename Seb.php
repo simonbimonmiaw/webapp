@@ -37,16 +37,16 @@
 
       <!-- Categories -->
       <h2>... Or browse currency: </h2>
-      <ul class="grid-container">
-        <li class="grid-item"><a href="#">Food</a></li>
-        <li class="grid-item"><a href="#">Minerals</a></li>
-        <li class="grid-item"><a href="#">Ships</a></li>
-        <li class="grid-item"><a href="#">Cars</a></li>
-        <li class="grid-item"><a href="#">Animals</a></li>
-        <li class="grid-item"><a href="#">Guns</a></li>
-        <li class="grid-item"><a href="#">Houses</a></li>
-        <li class="grid-item"><a href="#">Drinks</a></li>
-        <li class="grid-item"><a href="#">Electronics</a></li>
+      <ul class="kategori">
+        <li class="kategori__item"><a href="#">Food</a></li>
+        <li class="kategori__item"><a href="#">Minerals</a></li>
+        <li class="kategori__item"><a href="#">Ships</a></li>
+        <li class="kategori__item"><a href="#">Cars</a></li>
+        <li class="kategori__item"><a href="#">Animals</a></li>
+        <li class="kategori__item"><a href="#">Guns</a></li>
+        <li class="kategori__item"><a href="#">Houses</a></li>
+        <li class="kategori__item"><a href="#">Drinks</a></li>
+        <li class="kategori__item"><a href="#">Electronics</a></li>
       </ul>
       <!-- Categories end -->
 
