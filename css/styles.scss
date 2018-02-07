@@ -1,6 +1,6 @@
 $font-stack: 'Ubuntu', sans-serif;
-$btn-blue: #31b9e3;
-$dark-blue: #28a5cc;
+$btn-blue: #19A0CD;
+$dark-blue: #084776;
 $input-size: 15px;
 $form__text--length: 150px;
 $searchbar-font-size: 1.3em;
@@ -22,7 +22,6 @@ body {
   text-align: center;
 
 }
-
 
 // MAIN HEADER AND FORM
 .header {
@@ -64,6 +63,12 @@ color: white;
 padding-left: 40px;
 padding-right: 40px;
 font-size: $searchbar-font-size;
+transition: all 500ms;
+&:hover {
+  transition: all 500ms;
+  background-color: $dark-blue;
+  cursor: pointer;
+}
 }
 
 .select{
@@ -76,7 +81,42 @@ font-size: $searchbar-font-size;
   }
 }
 
+// Categories
+.kategori{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 2em 2em;
+  align-items: center;
+  width: 30%;
+  margin: auto;
+  justify-items: center;
 
+  &__item {
+    list-style-type: none;
+    font-size: 1.2em;
+    border-radius: 20px;
+    background-color: white;
+    padding: 30% 0;
+    text-align: center;
+    width: 80%;
+    vertical-align: middle;
+    transition: all 500ms;
+    &:hover {
+      cursor: pointer;
+      transition: all 500ms;
+      background-color: #2cb5e8;
+    }
+  }
+}
+
+// TODO: FIX ME
+.sectionBrowse {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 2%;
+}
 
 // POPUP
 .popup {
