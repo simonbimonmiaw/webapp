@@ -3,6 +3,7 @@ $btn-blue: #31b9e3;
 $dark-blue: #28a5cc;
 $input-size: 15px;
 $form__text--length: 150px;
+$searchbar-font-size: 1.3em;
 
 body {
   background-image: url('../images/03.jpg');
@@ -17,7 +18,7 @@ body {
 
 
 .main__form{
-  margin: 2em auto;
+  margin: 2% 0 5% 0;
   text-align: center;
 
 }
@@ -25,9 +26,10 @@ body {
 
 // MAIN HEADER AND FORM
 .header {
-  margin-top: 10%;
+  margin-top: 5%;
   text-align: center;
   color: white;
+
   &__heading {
   font-size: 4em;
   display: inline-block;
@@ -54,20 +56,23 @@ input, select{
   font-weight: bold;
 }
 
-.form__text{padding-right: $form__text--length;}
+.form__text{padding-right: $form__text--length; font-size: $searchbar-font-size;}
 .form__submit{
 border-radius: 0px 35px 35px 0px;
 background-color: $btn-blue;
 color: white;
 padding-left: 40px;
 padding-right: 40px;
+font-size: $searchbar-font-size;
 }
 
 .select{
   border-radius: 35px 0px 0px 35px;
+  font-size: $searchbar-font-size;
   &__option{
     background-color: white;
     font-weight: bold;
+    font-size: $searchbar-font-size - 0.5em;
   }
 }
 
@@ -81,7 +86,20 @@ padding-right: 40px;
   border-radius: 0 0 20px 20px;
   height: 600px;
   overflow: scroll;
+  overflow-x: hidden;
   margin: auto;
+
+  // Scrollbar behaviour inside popup
+  &::-webkit-scrollbar{
+    width: 10px;
+  }
+  &::-webkit-scrollbar-track{
+    background-color: none;
+  }
+  &::-webkit-scrollbar-thumb{
+    background-color: lightgrey;
+    border-radius: 10px;
+  }
 }
 
 .popupHeader {
