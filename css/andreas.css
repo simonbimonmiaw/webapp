@@ -1,32 +1,21 @@
-body {
-  background-image: url("../images/03.jpg");
-  background-size: cover; }
-
 * {
   margin: 0;
   padding: 0;
   font-family: "Ubuntu", sans-serif; }
 
+body {
+  background-color: darkorange; }
+
 .main__form {
-  margin: 2% 0 5% 0;
+  margin: 2em auto;
   text-align: center; }
 
 .header {
-  margin-top: 5%;
-  text-align: center;
-  color: white; }
+  text-align: center; }
   .header__heading {
-    font-size: 4em;
-    display: inline-block;
-    font-family: 'Righteous', cursive;
-    font-weight: lighter; }
+    font-size: 4em; }
   .header__subheading {
-    font-size: 1.5em; }
-  .header__logo {
-    fill: white;
-    width: 100px;
-    margin: auto;
-    display: inline-block; }
+    font-size: 2em; }
 
 input, select {
   background-color: white;
@@ -35,24 +24,20 @@ input, select {
   font-weight: bold; }
 
 .form__text {
-  padding-right: 150px;
-  font-size: 1.3em; }
+  padding-right: 150px; }
 
 .form__submit {
   border-radius: 0px 35px 35px 0px;
   background-color: #31b9e3;
   color: white;
   padding-left: 40px;
-  padding-right: 40px;
-  font-size: 1.3em; }
+  padding-right: 40px; }
 
 .select {
-  border-radius: 35px 0px 0px 35px;
-  font-size: 1.3em; }
+  border-radius: 35px 0px 0px 35px; }
   .select__option {
     background-color: white;
-    font-weight: bold;
-    font-size: 0.8em; }
+    font-weight: bold; }
 
 .popup {
   background-color: white;
@@ -61,15 +46,7 @@ input, select {
   border-radius: 0 0 20px 20px;
   height: 600px;
   overflow: scroll;
-  overflow-x: hidden;
   margin: auto; }
-  .popup::-webkit-scrollbar {
-    width: 10px; }
-  .popup::-webkit-scrollbar-track {
-    background-color: none; }
-  .popup::-webkit-scrollbar-thumb {
-    background-color: lightgrey;
-    border-radius: 10px; }
 
 .popupHeader {
   display: grid;
@@ -99,8 +76,6 @@ input, select {
   border-radius: 30px;
   grid-template-rows: 1fr 1fr 1fr;
   align-items: center; }
-  .popupItempoptupItem__select {
-    font-size: 0.3em; }
   .popupItem__image {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -147,4 +122,4 @@ input, select {
       font-size: 1em;
       border: none; }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=andreas.css.map */
