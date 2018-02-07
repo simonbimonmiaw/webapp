@@ -2,7 +2,7 @@
 <html la="en">
   <head>
     <meta charset="utf-8">
-    <title>Chang'a'later</title>
+    <title>Convertinator</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
@@ -46,7 +46,7 @@
           <!-- ... For each  -->
 
           <form class="popupItem__form" action="" method="get">
-            <select class="select" name="currency">
+            <select class="poptupItem__select" name="currency">
               <option class="select_option" value="DKK">DKK</option>
               <option class="select_option" value="USD">USD</option>
               <option class="select_option" value="SKK">SKK</option>

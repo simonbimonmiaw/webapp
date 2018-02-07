@@ -135,6 +135,10 @@ font-size: $searchbar-font-size;
   grid-template-rows: 1fr 1fr 1fr;
   align-items: center;
 
+  &poptupItem__select{
+    font-size: $searchbar-font-size - 1em;
+  }
+
   &__image {
     grid-column-start: 1;
     grid-column-end: 2;
