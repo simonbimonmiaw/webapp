@@ -11,10 +11,6 @@ input, select {
   padding: 15px;
   font-weight: bold; }
 
-.select_option {
-  background-color: white;
-  font-weight: bold; }
-
 .form__text {
   padding-right: 150px; }
 
@@ -25,7 +21,10 @@ input, select {
   padding-left: 40px;
   padding-right: 40px; }
 
-.select--currency {
+.select {
   border-radius: 35px 0px 0px 35px; }
+  .select__option {
+    background-color: white;
+    font-weight: bold; }
 
 /*# sourceMappingURL=nikolaj.css.map */

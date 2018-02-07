@@ -19,7 +19,6 @@ input, select{
   padding: $input-size;
   font-weight: bold;
 }
-.select_option{background-color: white; font-weight: bold;}
 
 .form__text{padding-right: $form__text--length;}
 .form__submit{
@@ -30,6 +29,9 @@ padding-left: 40px;
 padding-right: 40px;
 }
 
-.select--currency{
+.select{
   border-radius: 35px 0px 0px 35px;
+  &__option{
+    background-color: white;
+    font-weight: bold;}
 }

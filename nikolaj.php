@@ -17,11 +17,11 @@
       <!-- Search form -->
     <main class="main__form">
       <form class="form__design" action="" method="get">
-        <select class="select--currency" name="currency">
-          <option class="select_option" value="DKK">DKK</option>
-          <option class="select_option" value="USD">USD</option>
-          <option class="select_option" value="SKK">SKK</option>
-          <option class="select_option" value="NKK">NKK</option>
+        <select class="select" name="currency">
+          <option class="select__option" value="DKK">DKK</option>
+          <option class="select__option" value="USD">USD</option>
+          <option class="select__option" value="SKK">SKK</option>
+          <option class="select__option" value="NKK">NKK</option>
         </select>
         <input class="form__text" type="text" name="search-input" placeholder="Amount">
         <input class="form__submit" type="submit" value="Random">
