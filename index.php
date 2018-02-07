@@ -5,12 +5,32 @@
     <title>Chang'a'later</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-    <link href="css/andreas.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/nikolaj.css">
+    <link href="css/styles.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
   </head>
   <body>
+    <header class="header">
+        <img class="header__logo" src="images/robot.svg" alt="logo">
+      <h1 class="header__heading">Convertinator</h1>
+      <h5 class="header__subheading">- The internet's converter for useless currencies</h5>
+    </header>
+
+      <!-- Search form -->
+    <main class="main__form">
+      <form class="form__design" action="" method="get">
+        <select class="select" name="currency">
+          <option class="select__option" value="DKK">DKK</option>
+          <option class="select__option" value="USD">USD</option>
+          <option class="select__option" value="SKK">SKK</option>
+          <option class="select__option" value="NKK">NKK</option>
+        </select>
+        <input class="form__text" type="text" name="search-input" placeholder="Amount">
+        <input class="form__submit" type="submit" value="Random">
+      </form>
+      <!-- Search form end -->
+
+    </main>
 
 
       <header class="popupHeader">
