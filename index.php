@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Convertinator</title>
-    <link href="css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
   </head>
   <body>
@@ -25,96 +26,31 @@
           <option class="select__option" value="NKK">NKK</option>
         </select>
         <input class="form__text" type="text" name="search-input" placeholder="Amount">
-        <input class="form__submit" type="submit" value="Random">
+        <button class="form__submit"><span class="random">Random</span><span class="go">Let's go!</span></button>
       </form>
       <!-- Search form end -->
 
     </main>
 
 
-      <header class="popupHeader">
-        <h3 class="popupHeader__heading">Category: Animals </h3>
-        <a class="popupHeader__exit"><i class="fa fa-times"></i></a>
-      </header>
+    <section>
 
-      <div class="popup">
-        <article class="popupItem">
-          <img class="popupItem__image" src="images/flodhest.jpg" alt="Billede af fugl">
-          <h5 class="popupItem__heading">Your mom</h5>
+      <!-- Categories -->
+      <h2 class="sectionBrowse">... Or browse currency: </h2>
+      <ul class="kategori">
+        <li class="kategori__item">Food</li>
+        <li class="kategori__item">Minerals</li>
+        <li class="kategori__item">Ships</li>
+        <li class="kategori__item">Cars</li>
+        <li class="kategori__item">Animals</li>
+        <li class="kategori__item">Guns</li>
+        <li class="kategori__item">Houses</li>
+        <li class="kategori__item">Drinks</li>
+        <li class="kategori__item">Electronics</li>
+      </ul>
+      <!-- Categories end -->
 
-          <!-- ... For each  -->
-
-          <form class="popupItem__form" action="" method="get">
-            <select class="poptupItem__select" name="currency">
-              <option class="select_option" value="DKK">DKK</option>
-              <option class="select_option" value="USD">USD</option>
-              <option class="select_option" value="SKK">SKK</option>
-              <option class="select_option" value="NKK">NKK</option>
-            </select>
-            <input class="textInput" type="text" name="search-input" placeholder="Amount">
-            <input class="submit" type="submit" value="Convert">
-          </form>
-          <h5 class="popupItem__result">Can buy you.. </h5>
-        </article>
-        <article class="popupItem">
-          <img class="popupItem__image" src="images/trump.jpg" alt="Billede af fugl">
-          <h5 class="popupItem__heading">Trump</h5>
-
-          <!-- ... For each  -->
-
-          <form class="popupItem__form" action="" method="get">
-            <select class="select" name="currency">
-              <option class="select_option" value="DKK">DKK</option>
-              <option class="select_option" value="USD">USD</option>
-              <option class="select_option" value="SKK">SKK</option>
-              <option class="select_option" value="NKK">NKK</option>
-            </select>
-            <input class="textInput" type="text" name="search-input" placeholder="Amount">
-            <input class="submit" type="submit" value="Convert">
-          </form>
-          <h5 class="popupItem__result">Can buy you.. </h5>
-        </article>
-        <article class="popupItem">
-          <img class="popupItem__image" src="images/fugl.jpg" alt="Billede af fugl">
-          <h5 class="popupItem__heading">Birdie</h5>
-
-          <!-- ... For each  -->
-
-          <form class="popupItem__form" action="" method="get">
-            <select class="select" name="currency">
-              <option class="select_option" value="DKK">DKK</option>
-              <option class="select_option" value="USD">USD</option>
-              <option class="select_option" value="SKK">SKK</option>
-              <option class="select_option" value="NKK">NKK</option>
-            </select>
-            <input class="textInput" type="text" name="search-input" placeholder="Amount">
-            <input class="submit" type="submit" value="Convert">
-          </form>
-          <h5 class="popupItem__result">Can buy you.. </h5>
-        </article>
-        <article class="popupItem">
-          <img class="popupItem__image" src="images/fugl.jpg" alt="Billede af fugl">
-          <h5 class="popupItem__heading">Birdie</h5>
-
-          <!-- ... For each  -->
-
-          <form class="popupItem__form" action="" method="get">
-            <select class="select" name="currency">
-              <option class="select_option" value="DKK">DKK</option>
-              <option class="select_option" value="USD">USD</option>
-              <option class="select_option" value="SKK">SKK</option>
-              <option class="select_option" value="NKK">NKK</option>
-            </select>
-            <input class="textInput" type="text" name="search-input" placeholder="Amount">
-            <input class="submit" type="submit" value="Convert">
-          </form>
-          <h5 class="popupItem__result">Can buy you.. </h5>
-        </article>
-
-      </div>
-        <!-- Endforeach -->
-
-    <!-- End browse currency -->
-
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   </body>
 </html>
