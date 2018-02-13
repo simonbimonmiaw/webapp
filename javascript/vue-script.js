@@ -105,6 +105,7 @@ var app7 = new Vue({
 	    {
 		    name: 'Dry martini', image: 'images/dry-martini.jpg', value: 75
 	    },
+<<<<<<< HEAD
       // Fruits
       {
 		    name: 'Banana', image: 'images/banana.jpg', value: 1.95
@@ -124,6 +125,58 @@ var app7 = new Vue({
       {
 		    name: 'Pineapple', image: 'images/pineapple.jpg', value: 22
 	    },
+=======
+      {name: 'Mauser 98K', image: 'images/mauser.jpg', value: 12000, category: 'guns'
+      },
+
+      {
+        name: 'Desert Eagle', image: 'images/deserteagle.jpg', value: 9000, category: 'guns'
+      },
+
+      {name: 'Ak-47', image: 'images/ak47.jpg', value: 3000, category: 'guns'},
+
+      {name: 'Ferrari 458 Spider', image: 'images/Ferrari.jpg', value: 4890000, category: 'cars'},
+
+      {name: 'Audi A8', image: 'images/audia8.jpg', value: 1600000, category: 'cars'},
+
+      {name: 'Mercedes-AMG GT', image: 'images/mercedes.jpg', value: 4893000, category: 'cars'},
+
+      {name: 'Aston Martin Vanquish', image: 'images/astonmartin.jpg', value: 5780000, category: 'cars'},
+
+      {name: 'Bugatti Veyron', image: 'images/bugatti.jpg', value: 25000000, category: 'cars'},
+
+      {name: 'Porsche Carrera GT', image: 'images/porsche.jpg', value: 10300000, category: 'cars'},
+
+      {name: 'Lamborghini Murcielago Roadster', image: 'images/lamborghini.jpg', value: 5500000, category: 'cars'},
+
+      {name: 'Guld i gram', image: 'images/guld.jpg', value: 230, category: 'minerals' },
+
+      {name: 'Finsølv i gram', image: 'images/silver.jpg', value: 2.66, category: 'minerals'},
+
+      {name: 'Platin i gram', image: 'images/platin.jpg', value: 350, category: 'minerals'},
+
+      {name: 'Magnesium i kg', image: 'images/magnesium.jpg', value: 14, category: 'minerals'},
+
+      {name: 'Wolfram i kg', image: 'images/wolfram.jpg', value: 184, category: 'minerals'},
+
+      {name: 'Palladium i gram', image: 'images/Palladium.jpg', value: 298, category: 'minerals'},
+
+      {name: 'Playstation 4 500gb', image: 'images/ps4.jpg', value: 2000, category: 'electronics'},
+
+      {name: 'DJI Phantom 3 drone', image: 'images/drone.jpg', value: 4600, category: 'electronics'},
+
+      {name: 'Oculus Rift', image: 'images/rift.jpg', value: 3300, category: 'electronics'},
+
+      {name: 'GTX 1080 Ti Gaming X 11G', image: 'images/gtx1080.jpg', value: 6000, category: 'electronics'},
+
+      {name: 'Nokia 3310', image: 'images/nokia3310.jpg', value: 450, category: 'electronics'},
+
+      {name: 'One Plus 5t', image: 'images/oneplus.jpg', value: 3800, category: 'electronics'},
+
+      {name: 'Iphone x', image: 'images/iphone.jpg', value: 8700, category: 'electronics'},
+
+      {name: 'Philips 65" 4K Smart TV', image: 'images/tv.jpg', value: 10000, category: 'electronics'}
+>>>>>>> 4a0a0035717cac46d00f55e3c8a35ab00cdd23da
     ],
     randomDisplay: {
       name: '',
