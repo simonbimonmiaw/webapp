@@ -12,7 +12,7 @@ var app7 = new Vue({
         name: 'Tibetan Mastiff', image: 'images/tibetan-mastiff.jpg', value: 42500, category: 'animals'
       },
       {
-        name: 'Marmoset Monkey', image: 'images/marmoset-monkey.jpg', value: 23700, category: 'animals'
+        name: 'Marmoset Monkey', image: 'images/marmoset-monkey.jpg', value: 23700
       },
       { name: 'Icelandic Hourse', image: 'images/icelandic-horse.jpg', value: 15000, category: 'animals'
       },
@@ -32,79 +32,90 @@ var app7 = new Vue({
         name: 'Llama', image: 'images/llama.jpg', value: 2500, category: 'animals'
       },
       {
-        id: 0, name: 'Seat Mii', image: 'images/seat-mii.jpg', value: 80000, category: 'cars'
+        id: 0, name: 'Seat Mii', image: 'images/seat-mii.jpg', value: 80000
       },
       {
-        id: 1, name: 'Audi a4', image: 'images/audi-a4.jpg', value: 457000, category: 'cars'
+        id: 1, name: 'Audi a4', image: 'images/audi-a4.jpg', value: 457000
       },
       {
-        id: 2, name: 'Lamborghini Aventador Roadster', image: 'images/lamborghini-aventador-roadster.jpg', value: 8500000, category: 'cars'
+        id: 2, name: 'Lamborghini Aventador Roadster', image: 'images/lamborghini', value: 8500000
       },
       {
-        id: 3, name: 'Ferrari 335 Sport', image: 'images/ferrari-335.jpg', value: 250000000, category: 'cars'
+        id: 3, name: 'Ferrari 335 Sport', image: 'images/ferrari-335.jpg', value: 250000000
       },
-      { id: 4, name: 'Honda Civic', image: 'images/honda-civic.jpg', value: 249000, category: 'cars'
-      },
-      {
-        id: 5, name: 'Mercedes S350', image: 'images/mercedes-s350.jpg', value: 1700000, category: 'cars'
+      { id: 4, name: 'Honda Civic', image: 'images/honda-civic.jpg', value: 249000
       },
       {
-        id: 6, name: 'Koenigsegg One', image: 'images/koenigsegg-one.jpg', value: 10400000, category: 'cars'
+        id: 5, name: 'Mercedes S350', image: 'images/mercedes-s350.jpg', value: 1700000
       },
       {
-        id: 7, name: 'Bugatti Veyron Grand Sport Ettorre', image: 'images/bugatti-veyron.jpg', value: 17300000, category: 'cars'
+        id: 6, name: 'Koenigsegg One', image: 'images/koenigsegg-one.jpg', value: 10400000
       },
       {
-        id: 8, name: 'Pagani Huayra', image: 'images/pagani-huayra.jpg', value: 9700000, category: 'cars'
+        id: 7, name: 'Bugatti Veyron Grand Sport Ettorre', image: 'images/bugatti-veyron.jpg', value: 17300000
       },
       {
-        id: 9, name: 'Hyundai i10', image: 'images/hyundai-i10.jpg', value: 84888, category: 'cars'
+        id: 8, name: 'Pagani Huayra', image: 'images/pagani-huayra.jpg', value: 9700000
       },
       {
-        id: 0, name: 'Bel Air Spec Manor, Florida', image: 'images/bel-air-spec-manor-florida.jpg', value: 1519202720, category: 'houses'
+        id: 9, name: 'Hyundai i10', image: 'images/hyundai-i10.jpg', value: 84888
       },
       {
-        id: 1, name: 'Briar Patch, The Hamptons', image: 'images/briar-patch.jpg', value: 850000000, category: 'houses'
+        id: 0, name: 'Bel Air Spec Manor, Florida', image: 'images/bel-air-spec-manor-florida.jpg', value: 1519202720
       },
       {
-        id: 2, name: 'Il Palmetto, Palm Beach', image: 'images/il-palmetto.jpg', value: 832000000, category: 'houses'
+        id: 1, name: 'Briar Patch, The Hamptons', image: 'images/briar-patch.jpg', value: 850000000
       },
       {
-        id: 3, name: 'Fifth Avenue Duplex, New York City', image: 'images/fifth-avenue-duplex.jpg', value: 729483283, category: 'houses'
-      },
-      { id: 4, name: 'Brookline Estate, Boston', image: 'images/bookline-estate.jpg', value: 547112462, category: 'houses'
+        id: 2, name: 'Il Palmetto, Palm Beach', image: 'images/il-palmetto.jpg', value: 832000000
       },
       {
-        id: 5, name: 'Holmby Hills Villa, Los Angeles', image: 'images/holby-hills-villa.jpg', value: 534954407, category: 'houses'
+        id: 3, name: 'Fifth Avenue Duplex, New York City', image: 'images/fifth-avenue-duplex.jpg', value: 729483283
+      },
+      { id: 4, name: 'Brookline Estate, Boston', image: 'images/bookline-estate.jpg', value: 547112462
       },
       {
-        id: 6, name: 'Beverly Hills Mansion, Los Angeles', image: 'images/beverly-hills-mansion.jpg', value: 516717325, category: 'houses'
+        id: 5, name: 'Holmby Hills Villa, Los Angeles', image: 'images/holby-hills-villa.jpg', value: 534954407
       },
       {
-        id: 7, name: 'Edie Goetz Mansion, Los Angeles', image: 'images/eddie-goetz-mansion.jpg', value: 480243161, category: 'houses'
+        id: 6, name: 'Beverly Hills Mansion, Los Angeles', image: 'images/beverly-hills-mansion.jpg', value: 516717325
       },
       {
-        id: 8, name: 'Shitty old house in Denmark', image: 'images/shitty-old-house.jpg', value: 75000, category: 'houses'
+        id: 7, name: 'Edie Goetz Mansion, Los Angeles', image: 'images/eddie-goetz-mansion.jpg', value: 480243161
       },
       {
-        id: 9, name: 'House in kværndrup', image: 'images/house-in-kværndrup.jpg', value: 95000, category: 'houses'
+        id: 8, name: 'Shitty old house in Denmark', image: 'images/shitty-old-house.jpg', value: 75000
+      },
+      {
+        id: 9, name: 'House in kværndrup', image: 'images/house-in-kværndrup.jpg', value: 95000
       },
       // Drinks
       {
-		    name: 'Breezer', image: 'images/breezer.jpg', value: 16.95, category: 'drinks'
+		    name: 'Breezer', image: 'images/breezer.jpg', value: 16.95
       },
 	    {
-		    name: 'Piña Colada', image: 'images/pina-colada.jpg', value: 90, category: 'drinks'
+		    name: 'Piña Colada', image: 'images/pina-colada.jpg', value: 90
 	    },
 	    {
-		    name: 'Virgin Strawberry Daiquiri', image: 'images/virgin-strawberry-daiquiri.jpg', value: 50, category: 'drinks'
+		    name: 'Virgin Strawberry Daiquiri', image: 'images/virgin-strawberry-daiquiri.jpg', value: 50
 	    },
     	{
-		    name: 'Stor fadøl', image: 'images/fadoel.jpg', value: 40, category: 'drinks'
+		    name: 'Stor fadøl', image: 'images/fadoel.jpg', value: 40
 	    },
 	    {
-		    name: 'Dry martini', image: 'images/dry-martini.jpg', value: 75, category: 'drinks'
+		    name: 'Dry martini', image: 'images/dry-martini.jpg', value: 75
 	    },
+      { name: 'Røget skinke', image: 'images/skinke.jpg', value: 200, category: 'foods'},
+
+      { name: 'Hakket oksekød 1 kg', image: 'images/beef.jpg', value: 65, category: 'foods' },
+
+      {name: '5 kg torsk', image: 'images/torsk.jpg', value: 530, category: 'foods'},
+
+      {name: '2 kg sild', image: 'images/sild.jpg', value: 520, category: 'foods'},
+
+      {name: '1 kg sourmetrejer', image: 'images/rejer.jpg', value: 150, category: 'foods'},
+
+      {name: '½ kg pasta skruer', image: 'images/pasta.jpg', value: 3.95, category: 'foods'},
 
       {name: 'Mauser 98K', image: 'images/mauser.jpg', value: 12000, category: 'guns'
       },
@@ -171,22 +182,22 @@ var app7 = new Vue({
       {name: 'Philips 65" 4K Smart TV', image: 'images/tv.jpg', value: 10000, category: 'electronics'},
       // Fruits
       {
-        name: 'Banana', image: 'images/banana.jpg', value: 1.95, category: 'fruits'
+        name: 'Banana', image: 'images/banana.jpg', value: 1.95
       },
       {
-        name: 'Grape', image: 'images/grape.jpg', value: 10, category: 'fruits'
+        name: 'Grape', image: 'images/grape.jpg', value: 10
       },
       {
-        name: 'Lemon', image: 'images/lemon.jpg', value: 4, category: 'fruits'
+        name: 'Lemon', image: 'images/lemon.jpg', value: 4
       },
       {
-        name: 'Lime', image: 'images/lime.jpg', value: 4, category: 'fruits'
+        name: 'Lime', image: 'images/lime.jpg', value: 4
       },
       {
-        name: 'Orange', image: 'images/orange.jpg', value: 8, category: 'fruits'
+        name: 'Orange', image: 'images/orange.jpg', value: 8
       },
       {
-        name: 'Pineapple', image: 'images/pineapple.jpg', value: 22, category: 'fruits'
+        name: 'Pineapple', image: 'images/pineapple.jpg', value: 22
       },
 
     ],
