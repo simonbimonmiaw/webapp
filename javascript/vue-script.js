@@ -88,7 +88,22 @@ var app7 = new Vue({
       },
       {
         id: 9, name: 'House in kværndrup', image: 'images/house-in-kværndrup.jpg', value: 95000
-      }
+      },
+      {
+		    name: 'Breezer', image: 'images/breezer.jpg', value: 16.95
+      },
+	    {
+		    name: 'Piña Colada', image: 'images/pina-colada.jpg', value: 90
+	    },
+	    {
+		    name: 'Virgin Strawberry Daiquiri', image: 'images/virgin-strawberry-daiquiri.jpg', value: 50
+	    },
+    	{
+		    name: 'Stor fadøl', image: 'images/fadoel.jpg', value: 40
+	    },
+	    {
+		    name: 'Dry martini', image: 'images/dry-martini.jpg', value: 75
+	    },
     ],
     randomDisplay: {
       name: '',
