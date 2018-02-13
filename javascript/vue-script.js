@@ -2,6 +2,7 @@ var app7 = new Vue({
   el: '#test',
   data: {
     items: [
+      // Animals start
       {
         name: 'Seahorse', image: 'images/seahorse.jpg', value: 900, category: 'animals'
       },
@@ -31,6 +32,8 @@ var app7 = new Vue({
       {
         name: 'Llama', image: 'images/llama.jpg', value: 2500, category: 'animals'
       },
+      // Animals end
+      // Cars start
       {
         id: 0, name: 'Seat Mii', image: 'images/seat-mii.jpg', value: 80000
       },
@@ -38,7 +41,7 @@ var app7 = new Vue({
         id: 1, name: 'Audi a4', image: 'images/audi-a4.jpg', value: 457000
       },
       {
-        id: 2, name: 'Lamborghini Aventador Roadster', image: 'images/lamborghini', value: 8500000
+        id: 2, name: 'Lamborghini Aventador Roadster', image: 'images/lamborghini-aventador-roadster.jpg', value: 8500000
       },
       {
         id: 3, name: 'Ferrari 335 Sport', image: 'images/ferrari-335.jpg', value: 250000000
@@ -60,6 +63,8 @@ var app7 = new Vue({
       {
         id: 9, name: 'Hyundai i10', image: 'images/hyundai-i10.jpg', value: 84888
       },
+      // Cars end
+      // Houses start
       {
         id: 0, name: 'Bel Air Spec Manor, Florida', image: 'images/bel-air-spec-manor-florida.jpg', value: 1519202720
       },
@@ -89,6 +94,7 @@ var app7 = new Vue({
       {
         id: 9, name: 'House in kværndrup', image: 'images/house-in-kværndrup.jpg', value: 95000
       }
+      // Houses end
     ],
     randomDisplay: {
       name: '',
