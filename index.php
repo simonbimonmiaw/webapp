@@ -52,7 +52,7 @@
       <ul class="kategori">
         <li class="kategori__item">Food</li>
         <li class="kategori__item">Minerals</li>
-        <li class="kategori__item">Ships</li>
+        <li class="kategori__item">Fruit</li>
         <li class="kategori__item">Cars</li>
         <li class="kategori__item">Animals</li>
         <li class="kategori__item">Guns</li>

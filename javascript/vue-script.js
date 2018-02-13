@@ -38,7 +38,7 @@ var app7 = new Vue({
         id: 1, name: 'Audi a4', image: 'images/audi-a4.jpg', value: 457000
       },
       {
-        id: 2, name: 'Lamborghini Aventador Roadster', image: 'images/lamborghini', value: 8500000
+        id: 2, name: 'Lamborghini Aventador Roadster', image: 'images/lamborghini-aventador-roadster.jpg', value: 8500000
       },
       {
         id: 3, name: 'Ferrari 335 Sport', image: 'images/ferrari-335.jpg', value: 250000000
