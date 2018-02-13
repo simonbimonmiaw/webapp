@@ -89,6 +89,7 @@ var app7 = new Vue({
       {
         id: 9, name: 'House in kværndrup', image: 'images/house-in-kværndrup.jpg', value: 95000
       },
+      // Drinks
       {
 		    name: 'Breezer', image: 'images/breezer.jpg', value: 16.95
       },
@@ -103,6 +104,25 @@ var app7 = new Vue({
 	    },
 	    {
 		    name: 'Dry martini', image: 'images/dry-martini.jpg', value: 75
+	    },
+      // Fruits
+      {
+		    name: 'Banana', image: 'images/banana.jpg', value: 1.95
+      },
+	    {
+		    name: 'Grape', image: 'images/grape.jpg', value: 10
+	    },
+	    {
+		    name: 'Lemon', image: 'images/lemon.jpg', value: 4
+	    },
+    	{
+		    name: 'Lime', image: 'images/lime.jpg', value: 4
+	    },
+	    {
+		    name: 'Orange', image: 'images/orange.jpg', value: 8
+	    },
+      {
+		    name: 'Pineapple', image: 'images/pineapple.jpg', value: 22
 	    },
     ],
     randomDisplay: {
