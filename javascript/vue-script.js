@@ -105,28 +105,23 @@ var app7 = new Vue({
 	    {
 		    name: 'Dry martini', image: 'images/dry-martini.jpg', value: 75
 	    },
-      {
-        name: 'Mauser 98K', image: 'images/mauser.jpg', value: 12000, category: 'guns'
+
+      {name: 'Mauser 98K', image: 'images/mauser.jpg', value: 12000, category: 'guns'
       },
-      // Fruits
-      {
-        name: 'Banana', image: 'images/banana.jpg', value: 1.95
+      {id:0, name: 'Tiger', image: 'images/tigercub.jpg', value: 45000, category: 'animals'
       },
       {
-        name: 'Grape', image: 'images/grape.jpg', value: 10
+      id:1, name: 'Horse', image: 'images/horse.jpg', value: 30000, category: 'animals'
       },
-      {
-        name: 'Lemon', image: 'images/lemon.jpg', value: 4
-      },
-      {
-        name: 'Lime', image: 'images/lime.jpg', value: 4
-      },
-      {
-        name: 'Orange', image: 'images/orange.jpg', value: 8
-      },
-      {
-        name: 'Pineapple', image: 'images/pineapple.jpg', value: 22
-      },
+      {id:2, name: 'Labrador Retriever', image: 'images/dog.jpg', value: 8000, category: 'animals'},
+
+      {id:3, name: 'Turtle', image: 'images/turtle.jpg', value: 60, category: 'animals'},
+
+      { id:4, name: 'Camel', image: 'images/camel.jpg', value: 4000, category: 'animals'},
+
+      { id:5, name: 'Sibirisk dværghamster', image: 'images/hamster.jpg', value: 150, category: 'animals'},
+
+      { id:6, name: 'Cheeseburger', image: 'images/Cheeseburger.jpg', value: 10, category: 'foods'},
       {
         name: 'Desert Eagle', image: 'images/deserteagle.jpg', value: 9000, category: 'guns'
       },
