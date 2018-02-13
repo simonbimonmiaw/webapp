@@ -168,7 +168,26 @@ var app7 = new Vue({
 
       {name: 'Iphone x', image: 'images/iphone.jpg', value: 8700, category: 'electronics'},
 
-      {name: 'Philips 65" 4K Smart TV', image: 'images/tv.jpg', value: 10000, category: 'electronics'}
+      {name: 'Philips 65" 4K Smart TV', image: 'images/tv.jpg', value: 10000, category: 'electronics'},
+      // Fruits
+      {
+        name: 'Banana', image: 'images/banana.jpg', value: 1.95
+      },
+      {
+        name: 'Grape', image: 'images/grape.jpg', value: 10
+      },
+      {
+        name: 'Lemon', image: 'images/lemon.jpg', value: 4
+      },
+      {
+        name: 'Lime', image: 'images/lime.jpg', value: 4
+      },
+      {
+        name: 'Orange', image: 'images/orange.jpg', value: 8
+      },
+      {
+        name: 'Pineapple', image: 'images/pineapple.jpg', value: 22
+      },
 
     ],
     randomDisplay: {
