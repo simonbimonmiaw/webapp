@@ -33,6 +33,7 @@
       <!-- Search form end -->
 
     </main>
+
     <article class="randomItem" v-bind:class="{randomItem__active: randomDisplayIsActive}">
       <i v-on:click="randomDisplayIsActive = false" class="fa fa-times randomItem__exit"></i>
 
@@ -64,7 +65,7 @@
 
     </section>
   </div>
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="javascript/vue.js"></script>
     <script src="javascript/vue-script.js"></script>
   </body>
 </html>
