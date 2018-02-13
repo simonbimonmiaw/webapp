@@ -105,30 +105,28 @@ var app7 = new Vue({
 	    {
 		    name: 'Dry martini', image: 'images/dry-martini.jpg', value: 75
 	    },
-<<<<<<< HEAD
+      {
+        name: 'Mauser 98K', image: 'images/mauser.jpg', value: 12000, category: 'guns'
+      },
       // Fruits
       {
-		    name: 'Banana', image: 'images/banana.jpg', value: 1.95
+        name: 'Banana', image: 'images/banana.jpg', value: 1.95
       },
-	    {
-		    name: 'Grape', image: 'images/grape.jpg', value: 10
-	    },
-	    {
-		    name: 'Lemon', image: 'images/lemon.jpg', value: 4
-	    },
-    	{
-		    name: 'Lime', image: 'images/lime.jpg', value: 4
-	    },
-	    {
-		    name: 'Orange', image: 'images/orange.jpg', value: 8
-	    },
       {
-		    name: 'Pineapple', image: 'images/pineapple.jpg', value: 22
-	    },
-=======
-      {name: 'Mauser 98K', image: 'images/mauser.jpg', value: 12000, category: 'guns'
+        name: 'Grape', image: 'images/grape.jpg', value: 10
       },
-
+      {
+        name: 'Lemon', image: 'images/lemon.jpg', value: 4
+      },
+      {
+        name: 'Lime', image: 'images/lime.jpg', value: 4
+      },
+      {
+        name: 'Orange', image: 'images/orange.jpg', value: 8
+      },
+      {
+        name: 'Pineapple', image: 'images/pineapple.jpg', value: 22
+      },
       {
         name: 'Desert Eagle', image: 'images/deserteagle.jpg', value: 9000, category: 'guns'
       },
@@ -176,7 +174,7 @@ var app7 = new Vue({
       {name: 'Iphone x', image: 'images/iphone.jpg', value: 8700, category: 'electronics'},
 
       {name: 'Philips 65" 4K Smart TV', image: 'images/tv.jpg', value: 10000, category: 'electronics'}
->>>>>>> 4a0a0035717cac46d00f55e3c8a35ab00cdd23da
+
     ],
     randomDisplay: {
       name: '',
