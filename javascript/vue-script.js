@@ -1,5 +1,5 @@
 var app7 = new Vue({
-  el: '#test',
+  el: '#app',
   data: {
     items: [
       {
@@ -12,7 +12,7 @@ var app7 = new Vue({
         name: 'Tibetan Mastiff', image: 'images/tibetan-mastiff.jpg', value: 42500, category: 'animals'
       },
       {
-        name: 'Marmoset Monkey', image: 'images/marmoset-monkey.jpg', value: 23700
+        name: 'Marmoset Monkey', image: 'images/marmoset-monkey.jpg', value: 23700, category: 'animals'
       },
       { name: 'Icelandic Hourse', image: 'images/icelandic-horse.jpg', value: 15000, category: 'animals'
       },
@@ -32,90 +32,90 @@ var app7 = new Vue({
         name: 'Llama', image: 'images/llama.jpg', value: 2500, category: 'animals'
       },
       {
-        id: 0, name: 'Seat Mii', image: 'images/seat-mii.jpg', value: 80000
+        id: 0, name: 'Seat Mii', image: 'images/seat-mii.jpg', value: 80000, category: 'cars'
       },
       {
-        id: 1, name: 'Audi a4', image: 'images/audi-a4.jpg', value: 457000
+        id: 1, name: 'Audi a4', image: 'images/audi-a4.jpg', value: 457000, category: 'cars'
       },
       {
-        id: 2, name: 'Lamborghini Aventador Roadster', image: 'images/lamborghini', value: 8500000
+        id: 2, name: 'Lamborghini Aventador Roadster', image: 'images/lamborghini-aventador-roadster.jpg', value: 8500000, category: 'cars'
       },
       {
-        id: 3, name: 'Ferrari 335 Sport', image: 'images/ferrari-335.jpg', value: 250000000
+        id: 3, name: 'Ferrari 335 Sport', image: 'images/ferrari-335.jpg', value: 250000000, category: 'cars'
       },
-      { id: 4, name: 'Honda Civic', image: 'images/honda-civic.jpg', value: 249000
-      },
-      {
-        id: 5, name: 'Mercedes S350', image: 'images/mercedes-s350.jpg', value: 1700000
+      { id: 4, name: 'Honda Civic', image: 'images/honda-civic.jpg', value: 249000, category: 'cars'
       },
       {
-        id: 6, name: 'Koenigsegg One', image: 'images/koenigsegg-one.jpg', value: 10400000
+        id: 5, name: 'Mercedes S350', image: 'images/mercedes-s350.jpg', value: 1700000, category: 'cars'
       },
       {
-        id: 7, name: 'Bugatti Veyron Grand Sport Ettorre', image: 'images/bugatti-veyron.jpg', value: 17300000
+        id: 6, name: 'Koenigsegg One', image: 'images/koenigsegg-one.jpg', value: 10400000, category: 'cars'
       },
       {
-        id: 8, name: 'Pagani Huayra', image: 'images/pagani-huayra.jpg', value: 9700000
+        id: 7, name: 'Bugatti Veyron Grand Sport Ettorre', image: 'images/bugatti-veyron.jpg', value: 17300000, category: 'cars'
       },
       {
-        id: 9, name: 'Hyundai i10', image: 'images/hyundai-i10.jpg', value: 84888
+        id: 8, name: 'Pagani Huayra', image: 'images/pagani-huayra.jpg', value: 9700000, category: 'cars'
       },
       {
-        id: 0, name: 'Bel Air Spec Manor, Florida', image: 'images/bel-air-spec-manor-florida.jpg', value: 1519202720
+        id: 9, name: 'Hyundai i10', image: 'images/hyundai-i10.jpg', value: 84888, category: 'cars'
       },
       {
-        id: 1, name: 'Briar Patch, The Hamptons', image: 'images/briar-patch.jpg', value: 850000000
+        id: 0, name: 'Bel Air Spec Manor, Florida', image: 'images/bel-air-spec-manor-florida.jpg', value: 1519202720, category: 'houses'
       },
       {
-        id: 2, name: 'Il Palmetto, Palm Beach', image: 'images/il-palmetto.jpg', value: 832000000
+        id: 1, name: 'Briar Patch, The Hamptons', image: 'images/briar-patch.jpg', value: 850000000, category: 'houses'
       },
       {
-        id: 3, name: 'Fifth Avenue Duplex, New York City', image: 'images/fifth-avenue-duplex.jpg', value: 729483283
-      },
-      { id: 4, name: 'Brookline Estate, Boston', image: 'images/bookline-estate.jpg', value: 547112462
+        id: 2, name: 'Il Palmetto, Palm Beach', image: 'images/il-palmetto.jpg', value: 832000000, category: 'houses'
       },
       {
-        id: 5, name: 'Holmby Hills Villa, Los Angeles', image: 'images/holby-hills-villa.jpg', value: 534954407
+        id: 3, name: 'Fifth Avenue Duplex, New York City', image: 'images/fifth-avenue-duplex.jpg', value: 729483283, category: 'houses'
+      },
+      { id: 4, name: 'Brookline Estate, Boston', image: 'images/bookline-estate.jpg', value: 547112462, category: 'houses'
       },
       {
-        id: 6, name: 'Beverly Hills Mansion, Los Angeles', image: 'images/beverly-hills-mansion.jpg', value: 516717325
+        id: 5, name: 'Holmby Hills Villa, Los Angeles', image: 'images/holby-hills-villa.jpg', value: 534954407, category: 'houses'
       },
       {
-        id: 7, name: 'Edie Goetz Mansion, Los Angeles', image: 'images/eddie-goetz-mansion.jpg', value: 480243161
+        id: 6, name: 'Beverly Hills Mansion, Los Angeles', image: 'images/beverly-hills-mansion.jpg', value: 516717325, category: 'houses'
       },
       {
-        id: 8, name: 'Shitty old house in Denmark', image: 'images/shitty-old-house.jpg', value: 75000
+        id: 7, name: 'Edie Goetz Mansion, Los Angeles', image: 'images/eddie-goetz-mansion.jpg', value: 480243161, category: 'houses'
       },
       {
-        id: 9, name: 'House in kværndrup', image: 'images/house-in-kværndrup.jpg', value: 95000
+        id: 8, name: 'Shitty old house in Denmark', image: 'images/shitty-old-house.jpg', value: 75000, category: 'houses'
+      },
+      {
+        id: 9, name: 'House in kværndrup', image: 'images/house-in-kværndrup.jpg', value: 95000, category: 'houses'
       },
       // Drinks
       {
-		    name: 'Breezer', image: 'images/breezer.jpg', value: 16.95
+		    name: 'Breezer', image: 'images/breezer.jpg', value: 16.95, category: 'drinks'
       },
 	    {
-		    name: 'Piña Colada', image: 'images/pina-colada.jpg', value: 90
+		    name: 'Piña Colada', image: 'images/pina-colada.jpg', value: 90, category: 'drinks'
 	    },
 	    {
-		    name: 'Virgin Strawberry Daiquiri', image: 'images/virgin-strawberry-daiquiri.jpg', value: 50
+		    name: 'Virgin Strawberry Daiquiri', image: 'images/virgin-strawberry-daiquiri.jpg', value: 50, category: 'drinks'
 	    },
     	{
-		    name: 'Stor fadøl', image: 'images/fadoel.jpg', value: 40
+		    name: 'Stor fadøl', image: 'images/fadoel.jpg', value: 40, category: 'drinks'
 	    },
 	    {
-		    name: 'Dry martini', image: 'images/dry-martini.jpg', value: 75
+		    name: 'Dry martini', image: 'images/dry-martini.jpg', value: 75, category: 'drinks'
 	    },
-      { name: 'Røget skinke', image: 'images/skinke.jpg', value: 200, category: 'foods'},
+      { name: 'Røget skinke', image: 'images/skinke.jpg', value: 200, category: 'food'},
 
-      { name: 'Hakket oksekød 1 kg', image: 'images/beef.jpg', value: 65, category: 'foods' },
+      { name: 'Hakket oksekød 1 kg', image: 'images/beef.jpg', value: 65, category: 'food' },
 
-      {name: '5 kg torsk', image: 'images/torsk.jpg', value: 530, category: 'foods'},
+      {name: '5 kg torsk', image: 'images/torsk.jpg', value: 530, category: 'food'},
 
-      {name: '2 kg sild', image: 'images/sild.jpg', value: 520, category: 'foods'},
+      {name: '2 kg sild', image: 'images/sild.jpg', value: 520, category: 'food'},
 
-      {name: '1 kg sourmetrejer', image: 'images/rejer.jpg', value: 150, category: 'foods'},
+      {name: '1 kg sourmetrejer', image: 'images/rejer.jpg', value: 150, category: 'food'},
 
-      {name: '½ kg pasta skruer', image: 'images/pasta.jpg', value: 3.95, category: 'foods'},
+      {name: '½ kg pasta skruer', image: 'images/pasta.jpg', value: 3.95, category: 'food'},
 
       {name: 'Mauser 98K', image: 'images/mauser.jpg', value: 12000, category: 'guns'
       },
@@ -132,7 +132,7 @@ var app7 = new Vue({
 
       { id:5, name: 'Sibirisk dværghamster', image: 'images/hamster.jpg', value: 150, category: 'animals'},
 
-      { id:6, name: 'Cheeseburger', image: 'images/Cheeseburger.jpg', value: 10, category: 'foods'},
+      { id:6, name: 'Cheeseburger', image: 'images/Cheeseburger.jpg', value: 10, category: 'food'},
       {
         name: 'Desert Eagle', image: 'images/deserteagle.jpg', value: 9000, category: 'guns'
       },
@@ -182,22 +182,22 @@ var app7 = new Vue({
       {name: 'Philips 65" 4K Smart TV', image: 'images/tv.jpg', value: 10000, category: 'electronics'},
       // Fruits
       {
-        name: 'Banana', image: 'images/banana.jpg', value: 1.95
+        name: 'Banana', image: 'images/banana.jpg', value: 1.95, category: 'fruit'
       },
       {
-        name: 'Grape', image: 'images/grape.jpg', value: 10
+        name: 'Grape', image: 'images/grape.jpg', value: 10, category: 'fruit'
       },
       {
-        name: 'Lemon', image: 'images/lemon.jpg', value: 4
+        name: 'Lemon', image: 'images/lemon.jpg', value: 4, category: 'fruit'
       },
       {
-        name: 'Lime', image: 'images/lime.jpg', value: 4
+        name: 'Lime', image: 'images/lime.jpg', value: 4, category: 'fruit'
       },
       {
-        name: 'Orange', image: 'images/orange.jpg', value: 8
+        name: 'Orange', image: 'images/orange.jpg', value: 8, category: 'fruit'
       },
       {
-        name: 'Pineapple', image: 'images/pineapple.jpg', value: 22
+        name: 'Pineapple', image: 'images/pineapple.jpg', value: 22, category: 'fruit'
       },
 
     ],
@@ -205,51 +205,56 @@ var app7 = new Vue({
       name: '',
       image: '',
       amount: '',
-      userInput: ''
+      userInput: '',
+      isActive: false
     },
-    randomDisplayIsActive: false,
+    categoryDisplay: {
+      category: '',
+      isActive: false,
+      amount: '',
+    }
   },
   methods: {
-      convertCurrency(currency, userInput) {
-        var money = '';
-        switch (currency) {
-          case 'USD':
-            money = userInput * 6;
-            break;
+    convertCurrency(currency, userInput) {
+      var money = '';
+      switch (currency) {
+        case 'USD':
+          money = userInput * 6;
+          break;
 
-          case 'NKK':
-            userInput = parseInt(userInput);
-            money = (userInput * 0.3) + userInput;
-            break;
+        case 'NKK':
+          userInput = parseInt(userInput);
+          money = (userInput * 0.3) + userInput;
+          break;
 
-          case 'DKK':
-            money = userInput;
-            break;
+        case 'DKK':
+          money = userInput;
+          break;
 
-          case 'SKK':
-            money = userInput * 1.33;
-            break;
-        }
-        return money;
-      },
+        case 'SKK':
+          money = userInput * 1.33;
+          break;
+      }
+      return money;
+    },
 
-      randomItem() {
-        // Receive currency and userinput
-        var currency = this.$refs.randomCurrency.value;
-        var userInput = this.$refs.randomInput.value;
+    randomItem() {
+      // Receive currency and userinput
+      var currency = this.$refs.randomCurrency.value;
+      var userInput = this.$refs.randomInput.value;
 
-        // if user has not submitted anything return nothing
-        if (userInput === '') {
-          return ''
-        } else if(isNaN(userInput)){
-          this.randomDisplay.name = "Dude, that's not a number";
-          this.randomDisplay.image = "images/loser.jpg";
-          this.randomDisplay.amount = '';
-          this.randomDisplayIsActive = true;
-          console.log('not a number');
-        } else {
+      // if user has not submitted anything return nothing
+      if (userInput === '') {
+        return ''
+      } else if(isNaN(userInput)){
+        this.randomDisplay.name = "Dude, that's not a number";
+        this.randomDisplay.image = "images/loser.jpg";
+        this.randomDisplay.amount = '';
+        this.randomDisplayIsActive = true;
+        console.log('not a number');
+      } else {
 
-        // Convert userinput into amount in DKK
+      // Convert userinput into amount in DKK
         var money = this.convertCurrency(currency, userInput);
 
         // Receive array length and generate random number between 0 and array length
@@ -260,8 +265,25 @@ var app7 = new Vue({
         this.randomDisplay.name = this.items[randomNum].name;
         this.randomDisplay.image = this.items[randomNum].image;
         this.randomDisplay.amount = Math.floor(money / this.items[randomNum].value);
-        this.randomDisplayIsActive = true;
+        this.randomDisplay.isActive = true;
       }
+    },
+    displayCategory(category) {
+      this.categoryDisplay.category = category;
+      this.categoryDisplay.isActive = true;
+    },
+    convertItem(submitEvent) {
+      var currency = submitEvent.target.elements.currency.value;
+      var userInput = submitEvent.target.elements.name.value;
+      console.log(currency);
+
+      var money = this.convertCurrency(currency, userInput);
+      var index = submitEvent.target.elements.index.value;
+      var item = this.items[index];
+
+      var display = Math.floor(money / item.value);
+      document.getElementById(index).innerHTML = 'Can buy you.. ' + display;
+
     }
   }
 })

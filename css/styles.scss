@@ -147,6 +147,12 @@ to{
 }
 
 // Categories
+.browseCategory {
+  &__hide {
+    display: none;
+  }
+}
+
 .kategori{
 // Tilføjelse af fadeIn til kategorier
   opacity: 0;
@@ -189,6 +195,17 @@ to{
 }
 
 // POPUP
+.popupWrapper {
+    opacity: 0;
+  display: hidden;
+
+  &__active {
+    display: block;
+    opacity: 1;
+    transition: all 500ms;
+  }
+}
+
 .popup {
   background-color: white;
   max-width: 50%;

@@ -18,7 +18,7 @@
     </header>
 
       <!-- Search form -->
-      <div id="test">
+      <div id="app">
     <main class="main__form">
       <form class="form__design" action="" method="get" v-on:submit.prevent="randomItem()">
         <select class="select" name="currency" ref="randomCurrency">
@@ -34,8 +34,8 @@
 
     </main>
 
-    <article class="randomItem" v-bind:class="{randomItem__active: randomDisplayIsActive}">
-      <i v-on:click="randomDisplayIsActive = false" class="fa fa-times randomItem__exit"></i>
+    <article class="randomItem" v-bind:class="{randomItem__active: randomDisplay.isActive}">
+      <i v-on:click="randomDisplay.isActive = false" class="fa fa-times randomItem__exit"></i>
 
 
 
@@ -46,25 +46,55 @@
 
     </article>
 
-    <section>
+    <section class="browseCategory" v-bind:class="{browseCategory__hide: categoryDisplay.isActive}">
 
       <!-- Categories -->
       <h2 class="sectionBrowse">... Or browse currency: </h2>
       <ul class="kategori">
-        <li class="kategori__item">Food</li>
-        <li class="kategori__item">Minerals</li>
-        <li class="kategori__item">Fruit</li>
-        <li class="kategori__item">Cars</li>
-        <li class="kategori__item">Animals</li>
-        <li class="kategori__item">Guns</li>
-        <li class="kategori__item">Houses</li>
-        <li class="kategori__item">Drinks</li>
-        <li class="kategori__item">Electronics</li>
+        <li class="kategori__item" v-on:click="displayCategory('food')">Food</li>
+        <li class="kategori__item" v-on:click="displayCategory('minerals')">Minerals</li>
+        <li class="kategori__item" v-on:click="displayCategory('fruit')">Fruit</li>
+        <li class="kategori__item" v-on:click="displayCategory('cars')">Cars</li>
+        <li class="kategori__item" v-on:click="displayCategory('animals')">Animals</li>
+        <li class="kategori__item" v-on:click="displayCategory('guns')">Guns</li>
+        <li class="kategori__item" v-on:click="displayCategory('houses')">Houses</li>
+        <li class="kategori__item" v-on:click="displayCategory('drinks')">Drinks</li>
+        <li class="kategori__item" v-on:click="displayCategory('electronics')">Electronics</li>
       </ul>
       <!-- Categories end -->
 
     </section>
-  </div>
+
+    <section class="popupWrapper" v-bind:class="{popupWrapper__active: categoryDisplay.isActive}">
+      <header class="popupHeader">
+        <h3 class="popupHeader__heading">Category: {{ categoryDisplay.category }}</h3>
+        <a class="popupHeader__exit" v-on:click="categoryDisplay.isActive = false"><i class="fa fa-times"></i></a>
+      </header>
+
+      <div class="popup">
+        <article class="popupItem" v-for="(item, index) in items" v-if="item.category == categoryDisplay.category">
+          <img v-bind:src="item.image" class="popupItem__image" alt="Billede af fugl">
+          <h5 class="popupItem__heading">{{item.name}}</h5>
+
+          <!-- ... For each  -->
+
+          <form class="popupItem__form" action="" method="get" v-on:submit.prevent="convertItem">
+            <select class="poptupItem__select" name="currency">
+              <option class="select_option" value="DKK">DKK</option>
+              <option class="select_option" value="USD">USD</option>
+              <option class="select_option" value="SKK">SKK</option>
+              <option class="select_option" value="NKK">NKK</option>
+            </select>
+            <input type="hidden" name="index" v-bind:value="index">
+            <input class="textInput" ref="{{index}}" type="text" name="name" placeholder="Amount">
+            <input class="submit" type="submit" value="Convert">
+          </form>
+          <h5 class="popupItem__result" v-bind:id="index">Can buy you..</h5>
+        </article>
+
+      </div>
+    </div>
+  </section>
     <script src="javascript/vue.js"></script>
     <script src="javascript/vue-script.js"></script>
   </body>
