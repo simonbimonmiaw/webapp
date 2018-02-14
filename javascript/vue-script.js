@@ -87,7 +87,7 @@ var app7 = new Vue({
         id: 8, name: 'Shitty old house in Denmark', image: 'images/shitty-old-house.jpg', value: 75000, category: 'houses'
       },
       {
-        id: 9, name: 'House in kværndrup', image: 'images/house-in-kværndrup.jpg', value: 95000, category: 'houses'
+        id: 9, name: 'House in kværndrup', image: 'images/house-in-kvaerndrup.jpg', value: 95000, category: 'houses'
       },
       // Drinks
       {
@@ -105,20 +105,27 @@ var app7 = new Vue({
 	    {
 		    name: 'Dry martini', image: 'images/dry-martini.jpg', value: 75, category: 'drinks'
 	    },
-      { name: 'Røget skinke', image: 'images/skinke.jpg', value: 200, category: 'food'},
+      { name: 'Smoked ham', image: 'images/skinke.jpg', value: 200, category: 'food'},
 
-      { name: 'Hakket oksekød 1 kg', image: 'images/beef.jpg', value: 65, category: 'food' },
+      { name: 'Beef 1 kg', image: 'images/beef.jpg', value: 65, category: 'food' },
 
-      {name: '5 kg torsk', image: 'images/torsk.jpg', value: 530, category: 'food'},
+      {name: '5 kg cod', image: 'images/torsk.jpg', value: 530, category: 'food'},
 
-      {name: '2 kg sild', image: 'images/sild.jpg', value: 520, category: 'food'},
+      {name: '2 kg herring', image: 'images/sild.jpg', value: 520, category: 'food'},
 
-      {name: '1 kg sourmetrejer', image: 'images/rejer.jpg', value: 150, category: 'food'},
+      {name: '1 kg shrimp', image: 'images/rejer.jpg', value: 150, category: 'food'},
 
-      {name: '½ kg pasta skruer', image: 'images/pasta.jpg', value: 3.95, category: 'food'},
+      {name: '1 kg pasta', image: 'images/pasta.jpg', value: 8, category: 'food'},
 
       {name: 'Mauser 98K', image: 'images/mauser.jpg', value: 12000, category: 'guns'
       },
+
+      {name: 'Glock 19', image: 'images/glock19.jpg', value: 3600, category: 'guns'},
+
+      {name: 'Five-seven', image: 'images/fiveseven.jpg', value: 8400, category: 'guns'},
+
+      {name: 'm4a1', image: 'images/m4a1.jpg', value: 10000, category: 'guns'},
+
       {id:0, name: 'Tiger', image: 'images/tigercub.jpg', value: 45000, category: 'animals'
       },
       {
@@ -130,7 +137,7 @@ var app7 = new Vue({
 
       { id:4, name: 'Camel', image: 'images/camel.jpg', value: 4000, category: 'animals'},
 
-      { id:5, name: 'Sibirisk dværghamster', image: 'images/hamster.jpg', value: 150, category: 'animals'},
+      { id:5, name: 'Siberian Dwarf Hamster', image: 'images/hamster.jpg', value: 150, category: 'animals'},
 
       { id:6, name: 'Cheeseburger', image: 'images/Cheeseburger.jpg', value: 10, category: 'food'},
       {
@@ -153,15 +160,15 @@ var app7 = new Vue({
 
       {name: 'Lamborghini Murcielago Roadster', image: 'images/lamborghini.jpg', value: 5500000, category: 'cars'},
 
-      {name: 'Guld i gram', image: 'images/guld.jpg', value: 230, category: 'minerals' },
+      {name: 'Gold i gram', image: 'images/guld.jpg', value: 230, category: 'minerals' },
 
-      {name: 'Finsølv i gram', image: 'images/silver.jpg', value: 2.66, category: 'minerals'},
+      {name: 'Fine silver in gram', image: 'images/silver.jpg', value: 2.66, category: 'minerals'},
 
-      {name: 'Platin i gram', image: 'images/platin.jpg', value: 350, category: 'minerals'},
+      {name: 'platinum in gram', image: 'images/platin.jpg', value: 350, category: 'minerals'},
 
-      {name: 'Magnesium i kg', image: 'images/magnesium.jpg', value: 14, category: 'minerals'},
+      {name: 'Magnesium in kg', image: 'images/magnesium.jpg', value: 14, category: 'minerals'},
 
-      {name: 'Wolfram i kg', image: 'images/wolfram.jpg', value: 184, category: 'minerals'},
+      {name: 'Wolfram in kg', image: 'images/wolfram.jpg', value: 184, category: 'minerals'},
 
       {name: 'Palladium i gram', image: 'images/Palladium.jpg', value: 298, category: 'minerals'},
 
