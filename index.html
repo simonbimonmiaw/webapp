@@ -86,10 +86,11 @@
               <option class="select_option" value="NKK">NKK</option>
             </select>
             <input type="hidden" name="index" v-bind:value="index">
-            <input class="textInput" ref="{{index}}" type="text" name="name" placeholder="Amount">
+            <input class="textInput" ref="{{index}}" type="number" name="name" placeholder="Amount" v-bind:id="index">
             <input class="submit" type="submit" value="Convert">
           </form>
-          <h5 class="popupItem__result" v-bind:id="index">Can buy you..</h5>
+          <h5 class="popupItem__userInput"><span class="bold">{{ item.displayInput }}</span> dkk</h5>
+          <h5 class="popupItem__result">Can buy you <span class="bold">{{ item.displayAmount }}</span> {{ item.name }}s</h5>
         </article>
 
       </div>
